@@ -165,7 +165,7 @@ if __name__ == "__main__":
                     time.sleep(2)
                     if blink.value==1:
                             change_to = 'UP'
-                            break
+                            
                     else:
                             image = pygame.image.load(r'arrow2.jpg')
                             game_window.blit(image, (0, 0))
@@ -173,7 +173,7 @@ if __name__ == "__main__":
                             time.sleep(2)
                             if blink.value==1:
                                     change_to = 'DOWN'
-                                    break
+                                    
                             else:
                                     image = pygame.image.load(r'arrow.jpg')
                                     game_window.blit(image, (0, 0))
@@ -181,7 +181,7 @@ if __name__ == "__main__":
                                     time.sleep(2)
                                     if blink.value==1:
                                             change_to = 'LEFT'
-                                            break
+                                            
                                     else:
                                             image = pygame.image.load(r'arrow2.jpg')
                                             game_window.blit(image, (0, 0))
@@ -189,7 +189,7 @@ if __name__ == "__main__":
                                             time.sleep(2)
                                             if blink.value==1:
                                                     change_to = 'RIGHT'
-                                                    break
+                                                    
 
 
             # Making sure the snake cannot move in the opposite direction instantaneously
